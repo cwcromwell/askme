@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<head>
+  <title> Ask Me About API Documentation </title>
+  <link rel="stylesheet" href="styles/site.css" type="text/css" />
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script>
+    function changer(userInput) {
+    console.log("changer function activated");
+    userInput=userInput
+    menuSelect = "#"+userInput;
+    console.log("changer: userInput is:" + userInput);
+    console.log("changer: menuSelect is:" + menuSelect);
+    console.log("calling the injectContent function")
+    injectContent();
+    }
+    </script>
+
+
+</head>
+<body>
+  <div id="header">
+    <p id="title"><img id="mug" src="img/clarencePic.jpeg" alt="Cartoon of Clarence" height=24 width=24> Ask Me About API Documentation</p>
+  </div>
+  <div class="floatclear"></div>
+<div id="left-nav" >
+<ul class="menu-ul"><li class="menu-h1" onclick="changer('resources-for-technical-writers-in-general-and-api-writers-in-particular')"> Resources for Writers</li><li class="menu-h2" onclick="changer('web-resources')"> Web Resources</li><li class="menu-h2" onclick="changer('classes-and-certifications')"> Classes and Certifications</li><li class="menu-h2" onclick="changer('groups')"> Groups</li><li class="menu-h1" onclick="changer('what-is-api-documentation')"> What is API documentation</li><li class="menu-h2" onclick="changer('an-api-is-a-set-of-custom-commands')"> An API is a set of custom commands</li><li class="menu-h2" onclick="changer('who-uses-api-documentation')"> Who uses API documentation</li><li class="menu-h2" onclick="changer('what-is-included')"> What is included?</li><li class="menu-h2" onclick="changer('section')"> </li></ul></div>
+</div>
+
+
+<div id="content">
+  <div id="target"> </div>
+
+<div class="floatclear"></div>
+
+</body>
+  <script src="myScript.js"></script>
+
+</html>
+
+</div>
+<div class="floatclear"></div>
+<div class="floatclear"></div>
+
+<div id="footer">Copyright Clarence W Cromwell 2019. No reproduction of content without written permission of the author.</div>
+
+</body>
+  <script src="myScript.js"></script>
+
+</html>
