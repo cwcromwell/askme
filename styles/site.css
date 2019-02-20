@@ -108,9 +108,10 @@ padding: 5px;
 }
 
 #mug {
-  height:2em;
+  height:.8em;
   width:auto;
   display: inline;
+  background-color: #efbd47;
 }
 .floatclear {
   clear:both;
