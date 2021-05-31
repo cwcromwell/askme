@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Documentation architecture","href":"topics\/minimum-viable-docset.html","menu":{"hasChildren":true},"tocID":"tocId-d161e18","next":"tocId-d161e18"},{"title":"Resources","href":"topics\/developer-resources.html","menu":{"hasChildren":true},"tocID":"tocId-d161e33","next":"tocId-d161e33"}]});
