@@ -1,1 +1,0 @@
-define({"topics":[{"title":"For beginners","href":"topics\/about-api-docs.html","menu":{"hasChildren":true},"tocID":"tocId-d155e38","next":"tocId-d155e38"},{"title":"Resources","href":"topics\/writer-resources.html","menu":{"hasChildren":true},"tocID":"tocId-d155e53","next":"tocId-d155e53"}]});
