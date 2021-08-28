@@ -28,26 +28,76 @@ table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 95%;
+  border: 1px solid #dddddd;
+  margin-top: 0;
 }
 
-td, th {
+td, th, tr {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
+/*  
 tr:nth-child(even) {
   background-color: #dddddd;
-
-
 }
-
 
 tr:nth-child(even) td {
     border: 1px solid white;
 }
-
+*/
 pre {
   background:#dddddd;
   padding-left: 10px;
+  overflow: scroll;
+  overflow-x: scroll; 
+  width: 95%;
+}
+
+.page-div {
+border: 1px solid black; 
+margin: 25px; 
+padding:25px; 
+width: 85%; 
+margin-left: 50px;
+}
+
+code {
+color: black;
+}
+
+.h1 {
+    font-size: 2.5em;
+ margin-bottom: auto;
+}
+
+.h2 {
+font-size: 2.25em;
+    font-weight: bold;
+    color: silver;
+    margin-bottom: auto;
+}
+
+.undefined_element {
+    font-size: 1.5em;
+    font-weight: bold;
+        color: red; 
+}
+.h3 {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: silver;
+    margin-bottom: auto;
+
+}
+.h4, .h5 {
+    font-size: 1.5em; 
+        font-weight: bold;
+        color: silver;
+        margin-bottom: auto;
+}
+caption {
+    margin: 0;
+    padding: 0;
 }

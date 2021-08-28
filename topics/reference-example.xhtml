@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="../mystyles.css" />
     </head>
     <body>
-        
+        <div style="max-width:950px">
         <h1>Example reference entry: A single API endpoint</h1>
         <p>Here's a reference entry for one endpoint on a fictional API. This is just one way to
             represent all the necessary information.</p>
@@ -30,7 +30,7 @@
 
         </ul>
         
-        <div style="border: 1px solid black; margin: 25px; padding:25px; width: 65%; margin-left: 50px;" >
+        <div style="border: 1px solid black; margin: 25px; padding:25px; width: 85%; margin-left: 50px;" >
         <h2>Get account by id</h2>
         <p><b>Description</b>: Uses <code>customer_id</code> number to fetch the
                 individual customer’s account information, including name, shipping address, contact
@@ -39,7 +39,7 @@
         <h3>GET    /account/{customer_id}</h3>
  
         <h4>Request</h4>
-        <pre>
+        <pre style="overflow: scroll;">
 curl --location –request https://askmeaboutspis.com/BookShop/api/account/495878384505 \
 --header “accept: application/vnd.api+json” \
 --header “content-type: application/vnd.api+json” \
@@ -88,7 +88,7 @@ curl --location –request https://askmeaboutspis.com/BookShop/api/account/49587
             </table>
         <p> </p>
             <h4>Response</h4>
-            <pre>
+            <pre style="overflow: scroll;" >
 {
   "name": "Matthew Example",
   "customer_id": 495878384505,
@@ -282,6 +282,6 @@ curl --location –request https://askmeaboutspis.com/BookShop/api/account/49587
 
             
         </div>
-
+        </div>
     </body>
 </html>
