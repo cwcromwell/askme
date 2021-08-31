@@ -4,6 +4,8 @@
                path="topics/minimum-viable-docset.html"/>
    <appContext helpID="the-api-reference-docs-what-to-include"
                path="topics/basic-reference.html"/>
+   <appContext helpID="example-reference-entry"
+               path="topics/reference-example-container.html"/>
    <appContext helpID="resources-for-developers-who-write-docs"
                path="topics/developer-resources.html"/>
    <appContext helpID="what-are-apis-and-why-do-they-need-special-documentation"
