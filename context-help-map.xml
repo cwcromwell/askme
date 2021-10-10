@@ -2,20 +2,24 @@
 <map>
    <appContext helpID="minimum-viable-documentation-for-apis"
                path="topics/minimum-viable-docset.html"/>
-   <appContext helpID="the-api-reference-docs-what-to-include"
+   <appContext helpID="the-api-reference-docs-are-yours-complete"
                path="topics/basic-reference.html"/>
    <appContext helpID="example-reference-entry"
                path="topics/reference-example-container.html"/>
+   <appContext helpID="whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3"
+               path="topics/swagger-reference.html"/>
    <appContext helpID="resources-for-developers-who-write-docs"
                path="topics/developer-resources.html"/>
    <appContext helpID="what-are-apis-and-why-do-they-need-special-documentation"
                path="topics/about-api-docs.html"/>
    <appContext helpID="minimum-viable-documentation-for-apis"
                path="topics/minimum-viable-docset.html"/>
-   <appContext helpID="the-api-reference-docs-what-to-include"
+   <appContext helpID="the-api-reference-docs-are-yours-complete"
                path="topics/basic-reference.html"/>
    <appContext helpID="example-reference-entry"
                path="topics/reference-example-container.html"/>
+   <appContext helpID="whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3"
+               path="topics/swagger-reference.html"/>
    <appContext helpID="resources-for-technical-writers-in-general-and-api-writers-in-particular"
                path="topics/writer-resources.html"/>
    <appContext helpID="about-clarence-william-cromwell"

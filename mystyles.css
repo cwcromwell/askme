@@ -38,7 +38,7 @@ td, th, tr {
   padding: 8px;
 }
 
-/*  
+/*
 tr:nth-child(even) {
   background-color: #dddddd;
 }
@@ -51,15 +51,15 @@ pre {
   background:#dddddd;
   padding-left: 10px;
   overflow: scroll;
-  overflow-x: scroll; 
+  overflow-x: scroll;
   width: 95%;
 }
 
 .page-div {
-border: 1px solid black; 
-margin: 25px; 
-padding:25px; 
-width: 85%; 
+border: 1px solid black;
+margin: 25px;
+padding:25px;
+width: 85%;
 margin-left: 50px;
 }
 
@@ -82,7 +82,7 @@ font-size: 2.25em;
 .undefined_element {
     font-size: 1.5em;
     font-weight: bold;
-        color: red; 
+        color: red;
 }
 .h3 {
     font-size: 1.75em;
@@ -92,7 +92,7 @@ font-size: 2.25em;
 
 }
 .h4, .h5 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
         font-weight: bold;
         color: silver;
         margin-bottom: auto;
@@ -100,4 +100,9 @@ font-size: 2.25em;
 caption {
     margin: 0;
     padding: 0;
+}
+
+img {
+  border: 1px solid silver;
+  margin-bottom: 10px;
 }
