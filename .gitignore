@@ -1,11 +1,16 @@
 
 
-# web help files
+# web help files #
+#################
 /archive
 /out
 /temp
 src/en/out/
 src/en/topics/temp
 src/en/temp/
-
 license-3rd-party.txt
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
