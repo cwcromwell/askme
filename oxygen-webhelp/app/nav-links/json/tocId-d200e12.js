@@ -1,1 +1,0 @@
-define({"topics":[{"title":"Documentation design and quality","href":"topics\/minimum-viable-docset.html","menu":{"hasChildren":true},"tocID":"tocId-d200e18","next":"tocId-d200e18"},{"title":"Resources","href":"topics\/developer-resources.html","menu":{"hasChildren":true},"tocID":"tocId-d200e63","next":"tocId-d200e63"}]});

@@ -8,6 +8,9 @@
                path="topics/reference-example-container.html"/>
    <appContext helpID="whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3"
                path="topics/swagger-reference.html"/>
+   <appContext helpID="non-reference-documentation-writing-the-overview"
+               path="topics/non-reference-overview.html"/>
+   <appContext helpID="the-quickstart" path="topics/non-reference-quickstart.html"/>
    <appContext helpID="resources-for-developers-who-write-docs"
                path="topics/developer-resources.html"/>
    <appContext helpID="what-are-apis-and-why-do-they-need-special-documentation"
@@ -20,6 +23,9 @@
                path="topics/reference-example-container.html"/>
    <appContext helpID="whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3"
                path="topics/swagger-reference.html"/>
+   <appContext helpID="non-reference-documentation-writing-the-overview"
+               path="topics/non-reference-overview.html"/>
+   <appContext helpID="the-quickstart" path="topics/non-reference-quickstart.html"/>
    <appContext helpID="resources-for-technical-writers-in-general-and-api-writers-in-particular"
                path="topics/writer-resources.html"/>
    <appContext helpID="about-clarence-william-cromwell"
