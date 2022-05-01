@@ -11,6 +11,10 @@
    <appContext helpID="non-reference-documentation-writing-the-overview"
                path="topics/non-reference-overview.html"/>
    <appContext helpID="the-quickstart" path="topics/non-reference-quickstart.html"/>
+   <appContext helpID="the-process-for-completing-your-mvd-project"
+               path="topics/completing-mvd.html"/>
+   <appContext helpID="beyond-mvd-expanding-your-documentation-as-the-product-matures"
+               path="topics/beyond-mvd.html"/>
    <appContext helpID="resources-for-developers-who-write-docs"
                path="topics/developer-resources.html"/>
    <appContext helpID="what-are-apis-and-why-do-they-need-special-documentation"
@@ -26,6 +30,10 @@
    <appContext helpID="non-reference-documentation-writing-the-overview"
                path="topics/non-reference-overview.html"/>
    <appContext helpID="the-quickstart" path="topics/non-reference-quickstart.html"/>
+   <appContext helpID="the-process-for-completing-your-mvd-project"
+               path="topics/completing-mvd.html"/>
+   <appContext helpID="beyond-mvd-expanding-your-documentation-as-the-product-matures"
+               path="topics/beyond-mvd.html"/>
    <appContext helpID="resources-for-technical-writers-in-general-and-api-writers-in-particular"
                path="topics/writer-resources.html"/>
    <appContext helpID="about-clarence-william-cromwell"
