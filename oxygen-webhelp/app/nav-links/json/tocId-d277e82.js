@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Toolchain families","shortdesc":"<p class=\"shortdesc\"\/>","href":"topics\/toolchain-types.html","attributes":{"data-id":"concept_oqn_ylw_2vb"},"menu":{"hasChildren":false},"tocID":"concept_oqn_ylw_2vb-d277e86","topics":[]}]});
