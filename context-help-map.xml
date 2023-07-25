@@ -12,6 +12,7 @@
    <appContext helpID="beyond-mvd-expanding-your-documentation-as-the-product-matures"
                path="topics/beyond-mvd.html"/>
    <appContext helpID="" path="topics/how-to.html"/>
+   <appContext helpID="concept_oqn_ylw_2vb" path="topics/toolchain-types.html"/>
    <appContext helpID="resources-for-developers-who-write-docs"
                path="topics/developer-resources.html"/>
    <appContext helpID="what-are-apis-and-why-do-they-need-special-documentation"
@@ -32,6 +33,7 @@
    <appContext helpID="beyond-mvd-expanding-your-documentation-as-the-product-matures"
                path="topics/beyond-mvd.html"/>
    <appContext helpID="" path="topics/how-to.html"/>
+   <appContext helpID="concept_oqn_ylw_2vb" path="topics/toolchain-types.html"/>
    <appContext helpID="resources-for-technical-writers-in-general-and-api-writers-in-particular"
                path="topics/writer-resources.html"/>
    <appContext helpID="about-clarence-william-cromwell"
