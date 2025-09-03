@@ -1,0 +1,165 @@
+[[redirects]]
+  from = "/topics/toolchain-types_2.html"
+  to = "/topics/Tools-and-toolchains/toolchain-types/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+[[redirects]]
+  from = "/topics/toolchain-types.html"
+  to = "/topics/Tools-and-toolchains/toolchain-types/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+[[redirects]]
+  from = "/topics/about-api-docs.html"
+  to = "/topics/about-api-docs/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+
+[[redirects]]
+  from = "/topics/minimum-viable-docset.html"
+  to = "/topics/Better-API-docs/minimum-viable-docset/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/minimum-viable-docset_2.html"
+  to = "/topics/Better-API-docs/minimum-viable-docset/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/completing-mvd_2.html"
+  to = "/topics/Better-API-docs/completing-mvd/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+[[redirects]]
+  from = "/topics/completing-mvd.html"
+  to = "/topics/Better-API-docs/completing-mvd/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+[[redirects]]
+  from = "/topics/basic-reference.html"
+  to = "/topics/Better-API-docs/basic-reference/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/reference-example-container.html"
+  to = "/topics/Better-API-docs/reference-example-container/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/swagger-reference_2.html"
+  to = "/topics/Better-API-docs/swagger-reference/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "topics/swagger-reference.html"
+  to = "/topics/Better-API-docs/swagger-reference/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/non-reference-overview_2.html"
+  to = "/topics/Better-API-docs/non-reference-overview/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/non-reference-overview.html"
+  to = "/topics/Better-API-docs/non-reference-overview/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/non-reference-quickstart_2.html"
+  to = "/topics/Better-API-docs/non-reference-quickstart/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/non-reference-quickstart.html"
+  to = "/topics/Better-API-docs/non-reference-quickstart/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/how-to_2.html"
+  to = "/topics/Better-API-docs/how-to/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/how-to.html"
+  to = "/topics/Better-API-docs/how-to/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/beyond-mvd.html"
+  to = "/topics/Better-API-docs/beyond-mvd/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/writer-resources.html"
+  to = "/topics/writer-resources/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/about-this-site.html "
+  to = "/topics/about-this-site/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/topics/about-the-author.html"
+  to = "/topics/about-the-author/"
+  status = 301
+  force = false
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+
+
+
+
+
+
+
+
+
+
+
+
