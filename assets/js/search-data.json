@@ -2,9 +2,9 @@
     "doc": "Better-API-docs",
     "title": "Better-API-docs",
     "content": " ",
-    "url": "/topics/Better-API-docs/Better-API-docs/",
+    "url": "/topics/Better-API-docs/",
     
-    "relUrl": "/topics/Better-API-docs/Better-API-docs/"
+    "relUrl": "/topics/Better-API-docs/"
   },"1": {
     "doc": "Who needs APIs?",
     "title": "What are APIs and why do they need special documentation?",
@@ -576,9 +576,9 @@
     "doc": "Tools-and-toolchains",
     "title": "Tools-and-toolchains",
     "content": " ",
-    "url": "/topics/Tools-and-toolchains/tools-and-toolchains/",
+    "url": "/topics/tools-and-toolchains/",
     
-    "relUrl": "/topics/Tools-and-toolchains/tools-and-toolchains/"
+    "relUrl": "/topics/tools-and-toolchains/"
   },"83": {
     "doc": "Writer resources",
     "title": "Resources for technical writers in general and API writers in particular",
