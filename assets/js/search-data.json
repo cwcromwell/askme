@@ -1,634 +1,627 @@
 {"0": {
     "doc": "Better-API-docs",
-    "title": "How to organize, write, and improve API docs",
-    "content": "This group of topics covers the basic documentation types for APIs and how to write them. ",
-    "url": "/topics/Better-API-docs/Better-API-docs/#how-to-organize-write-and-improve-api-docs",
-    
-    "relUrl": "/topics/Better-API-docs/Better-API-docs/#how-to-organize-write-and-improve-api-docs"
-  },"1": {
-    "doc": "Better-API-docs",
     "title": "Better-API-docs",
     "content": " ",
     "url": "/topics/Better-API-docs/Better-API-docs/",
     
     "relUrl": "/topics/Better-API-docs/Better-API-docs/"
-  },"2": {
+  },"1": {
     "doc": "Who needs APIs?",
     "title": "What are APIs and why do they need special documentation?",
     "content": "In my former capacity as an organizer for the Write The Docs in the SF Bay Area, people would ask me to explain APIs and how they’re documented. If you asked those questions: Here you go. (If you’ve ever created or documented an API, feel free to skip this.) . ",
     "url": "/topics/about-api-docs/#what-are-apis-and-why-do-they-need-special-documentation",
     
     "relUrl": "/topics/about-api-docs/#what-are-apis-and-why-do-they-need-special-documentation"
-  },"3": {
+  },"2": {
     "doc": "Who needs APIs?",
     "title": "An API is a set of custom commands",
     "content": "The term application programming interface (API) describes software that allows other software to interact with it. When an app includes an API, other apps can make requests for information or actions programmatically. To accomplish that, an API has a unique set of commands and options that can be used to access whatever services are available. Depending on the API, the command might retrieve data, or write data, or perform a set of steps like reading, writing and processing data. This site is mainly about REST APIs, the kind that use HTTP or other protocols to provide functionality over the web. ",
     "url": "/topics/about-api-docs/#an-api-is-a-set-of-custom-commands",
     
     "relUrl": "/topics/about-api-docs/#an-api-is-a-set-of-custom-commands"
-  },"4": {
+  },"3": {
     "doc": "Who needs APIs?",
     "title": "Why APIs: coffee buying example",
     "content": "As an example, think about a web site where you buy a pound of coffee from a coffee roaster in another city. The coffee site has a payment area where you enter your billing address and a shopping cart filled with goods that you want to buy. Both of these represent API services that exist on different servers from the one that delivers the web page to your browser. The payment information that you punch into the website goes to a service that can securely process the payment, and since the coffee house is a smaller company, let’s say the payment service is run by a third party that specializes in secure payments. That means the web page contains code that will talk to the payment service through an encrypted channel and then complete the sale when the payment service confirms that payment has been made. The merchant receives payment but does not need to see the card number that you used to make the payment – in fact, they might not want to see it or store it for security reasons. The shopping cart information is directed to a different service, which stores your order, the shipping address, and whatever other data is relevant to the merchant. Let’s say the API that runs this service is also run by a third party, a company that helps small merchants set up an e-commerce site. In addition to collecting your order, this service has another interface, a web site for showing and printing all the current orders so they can be packed and shipped; that’s a completely different kind of functionality but provided by the same API that stored your order. What these APIs have in common is that they are software that provides a service to other software. When you punch your information into the merchant’s website, a script (a program) in the page transmits the information to the API-powered service. This makes it possible for each service to process thousands or millions of transactions every day, regardless of where merchants or customers are located. The APIs never sleep. APIs became popular over the past two decades because they make life a lot easier for people who build websites and mobile apps – you don’t have to build a payment system and an online store if you know how to talk to ready-made systems that can handle those things for you. The work on ecommerce sites can be divided into specialties: one firm focuses on payments, another on shopping carts, a third builds complete sites for merchants that tie all those systems together. The coffee customer and the merchant also get more usable web sites and services because of the division of labor. ",
     "url": "/topics/about-api-docs/#why-apis-coffee-buying-example",
     
     "relUrl": "/topics/about-api-docs/#why-apis-coffee-buying-example"
-  },"5": {
+  },"4": {
     "doc": "Who needs APIs?",
     "title": "Why the documentation is important",
     "content": "Think of the API commands as an invented language, for talking to one specific application. For example, the payment service would have its own very specific commands and syntax for transmitting the payment information about a single payment. The API reference documentation is like a dictionary for the language that the API speaks. The developer who built the merchant website, would have to consult the documentation for the payment API and the shopping cart API, so that the website would communicate data in the way that each API expects. APIs are tremendously useful and powerful, but without documentation they would be impossible to use, because each has its own particular way of communicating requests. APIs typically only accept requests sent in the correct way. For example: . | The request must be sent to a specified URL. | It must correctly use commands from the API reference and no additional or unnecessary code. | The API might require that when a certain command is used, the user must provide certain data or must include one of several attributes that clarify the command to make the request complete. For example: A command to record a purchase with the shopping cart service, would have to require an inventory number indicating what is purchased. Otherwise the transaction cannot be completed. | . API documentation helps developers to make use of an API as quickly and painlessly as possible by providing answers that cannot be derived from the API itself. | The most important documentation is the reference section, which explains every command and option available and how to use them. | A quickstart (or a more extensive guide) reveals the set of steps necessary to get results from the API, when users have to send a series of requests to different URLs to get the result that they want. | An overview (the chapter most often omitted from the documentation) explains what the API is used for, what problem it is supposed to solve, and how it works. | . ",
     "url": "/topics/about-api-docs/#why-the-documentation-is-important",
     
     "relUrl": "/topics/about-api-docs/#why-the-documentation-is-important"
-  },"6": {
+  },"5": {
     "doc": "Who needs APIs?",
     "title": "Final thoughts",
     "content": ". | This site will tell you how to document APIs, including what to include, how to structure the information, and how to write effectively for developers. | See the resources page on this site for other websites, classes, and additional resources that explain APIS and how to document them. | . ",
     "url": "/topics/about-api-docs/#final-thoughts",
     
     "relUrl": "/topics/about-api-docs/#final-thoughts"
-  },"7": {
+  },"6": {
     "doc": "Who needs APIs?",
     "title": "Who needs APIs?",
     "content": " ",
     "url": "/topics/about-api-docs/",
     
     "relUrl": "/topics/about-api-docs/"
-  },"8": {
+  },"7": {
     "doc": "About the author",
     "title": "About Clarence William Cromwell",
     "content": " ",
     "url": "/topics/about-the-author/#about-clarence-william-cromwell",
     
     "relUrl": "/topics/about-the-author/#about-clarence-william-cromwell"
-  },"9": {
+  },"8": {
     "doc": "About the author",
     "title": "Bio",
     "content": "I’m the Technical Publications Manager for Black Duck Software, inc. I’ve written software documentation since 2017. Some other things I’ve done: . | Newspaper reporting and editing for about a decade. | Writing procedures and inspection plans for an ISO 9001-compliant shipyard. | Writing code, mostly in Python. I’ve also committed Javascript and Bash. | . ",
     "url": "/topics/about-the-author/#bio",
     
     "relUrl": "/topics/about-the-author/#bio"
-  },"10": {
+  },"9": {
     "doc": "About the author",
     "title": "Contact info",
     "content": ". | Read more of my writing on substack. | Send email (for me) to docs(at)askmeaboutapis(dot)com. | Ping @cwcromwell in the Write The Docs Slack group. | Look me up on LinkedIn. | . ",
     "url": "/topics/about-the-author/#contact-info",
     
     "relUrl": "/topics/about-the-author/#contact-info"
-  },"11": {
+  },"10": {
     "doc": "About the author",
     "title": "The other Clarence Cromwell",
     "content": "I use my full name online because my dad has the same first and last name. You can find Clarence E. Cromwell dusting off his poetic license on Facebook. Unless he’s at the Eagles Club, modifying his bicycle, or selling cartoon art online. ",
     "url": "/topics/about-the-author/#the-other-clarence-cromwell",
     
     "relUrl": "/topics/about-the-author/#the-other-clarence-cromwell"
-  },"12": {
+  },"11": {
     "doc": "About the author",
     "title": "About the author",
     "content": " ",
     "url": "/topics/about-the-author/",
     
     "relUrl": "/topics/about-the-author/"
-  },"13": {
+  },"12": {
     "doc": "About this site",
     "title": "About this site",
     "content": "History . This started as a small, homely HTML page in 2019. I was organizing meetups for Write The Docs, and it occurred to me that it’s a lot easier to get a blog post into the world than to organize a meetup. And a blog post can help many more people over a longer period of time. Topics covered . | API documentation | Tools and processes | Information architecture | AI in documentation | . ",
     "url": "/topics/about-this-site/",
     
     "relUrl": "/topics/about-this-site/"
-  },"14": {
+  },"13": {
     "doc": "About this site",
     "title": "Latest changes",
     "content": "I’m no longer posting a note of every update on this page. You can find all the new content by going to the home page of the site. Everything will appear in the stream of latest posts. There’s a post about remaking this site with Jekyll and a new theme. ",
     "url": "/topics/about-this-site/#latest-changes",
     
     "relUrl": "/topics/about-this-site/#latest-changes"
-  },"15": {
+  },"14": {
     "doc": "About this site",
     "title": "Copyright notice",
     "content": "Copyright 2019-2021 Clarence William Cromwell . All rights reserved. The contents of this site shall not be reproduced without written permission of the author. ",
     "url": "/topics/about-this-site/#copyright-notice",
     
     "relUrl": "/topics/about-this-site/#copyright-notice"
-  },"16": {
+  },"15": {
     "doc": "About",
     "title": "About",
     "content": " ",
     "url": "/topics/about/",
     
     "relUrl": "/topics/about/"
-  },"17": {
+  },"16": {
     "doc": "The API reference docs—Are yours complete?",
     "title": "The API reference docs: Are yours complete?",
     "content": "The largest and most important part of the reference documentation is the section that describes all of the API endpoints. You’re probably aware that certain frameworks are available to generate the reference entries for you. Don’t assume that you can ignore the reference content. Here’s why: . | API Reference docs that are generated from a spec or “from the code” (as we’re frequently told) are derived from comments in the spec or the code. Those comments have to be written by somebody, and they are prone to the same errors and omissions as any other documentation. Reviewing (or writing) them requires familiarity with the type of spec (more about OpenAPI specs later), and it also requires a grasp of the information that should be included in the docs. | Occasionally, you might document a new or very small API by writing out the reference content. I’ve worked on at least four APIS that were documented this way, because the developers weren’t generating the reference docs and didn’t want to start. You should avoid writing all the content out, if at all possible; however, knowing how to do it means you have mastered the reference section – and it just might be necessary. | The completeness of the reference section is critical to the success of an API. When developers are asked what they like or hate about APIS, it’s often the documentation. And when they hate the documentation, the problem is usually incompleteness. Most developers think their API documentation is pretty good, usually because they are thorough and meticulous about providing all the details. (And they’re most likely right.) Here’s the thing: The degree of perfection required to keep customers happy is extremely perfect. When customers have a bad experience with the API docs, they’re dealing with the one section among dozens or hundreds that is incomplete. And as the hours tick painfully by, they no longer care about the hundreds of entries that were correct. It’s like hitting a massive pothole on a blacktop road that causes a flat tire – you don’t spend even a second thinking about how great the rest of the road was. | . If there’s any lesson to take away about API reference, it’s that they must be 100 percent complete and accurate, because users won’t accept any less. ",
     "url": "/topics/Better-API-docs/basic-reference/#the-api-reference-docs-are-yours-complete",
     
     "relUrl": "/topics/Better-API-docs/basic-reference/#the-api-reference-docs-are-yours-complete"
-  },"18": {
+  },"17": {
     "doc": "The API reference docs—Are yours complete?",
     "title": "What does an endpoint reference entry contain?",
     "content": "Any reference document is a collection of entries structured in a consistent way. Each endpoint should provide the same data as every other, and each entry should be organized in the same way as the others. So if the parameters are in alphabetical order for the first entry, remember to do that for every entry thereafter, unless you have some other system for organizing the parameters, like the order they would appear in a response body. Here are the elements that should be included in every REST API reference entry. Name It helps to give the endpoint some name other than its URL. Description A description of the endpoint in question (What is it for, and what can it do?). HTTP method The most common are GET, POST, PATCH, PUT, and DELETE. URL The distinct address for sending this particular request. If a collection of URLS share a base URL in common, you can describe that at the beginning of your reference section and indicate the unique part of the URL in the reference entry. Headers List any HTTP request headers that are required in order for the request to be accepted. Request parameters Clearly describe every parameter or property by giving its name, description, and data type. Make sure the description is clear enough that the user knows what they are supposed to use the parameter for. Good names are important, but don’t assume that the name makes everything obvious. Indicate whether the parameter is required in order for the request to be accepted. If the parameter has a limited set of possible values, provide all of them and explain how and when to use each. Response parameters Just like the request parameters, the response parameters should be fully explained (name, description, data type, required/optional, range of possible values). Users need a description for every parameter returned, to tell them what the data is and how they are expected to use it. Because users are likely to handle the response programmatically, it’s important that they know every possible property that might be included in the response and whether those properties are always returned or only returned sometimes. Example request Show an example request that is as close as possible to being ready to cut and paste into a terminal. But keep in mind that you need to indicate the user-entered variables. Explanatory comments (for the request) The comments that follow after any example should explain in plain language what the request is trying to do and point to the important phrases or passages that make things happen. Beyond that, comments also need to help users get unstuck. Many developers get started by modifying the examples, because that’s how they learn. They won’t come back to read unless they can’t make the example work on their own. In those cases, the first place they look is the comments that follow the example. This is why the comments should warn users about common mistakes. Example response An example of the response message is just as necessary as the example request. Don’t expect readers to be satisfied with only an explanation of HTTP response codes. Explanatory comments (for the response) The comments following the response example should explain the meaning of whatever data was returned. (For a reference checklist, see API Reference in my GitHub repo.) . ",
     "url": "/topics/Better-API-docs/basic-reference/#what-does-an-endpoint-reference-entry-contain",
     
     "relUrl": "/topics/Better-API-docs/basic-reference/#what-does-an-endpoint-reference-entry-contain"
-  },"19": {
+  },"18": {
     "doc": "The API reference docs—Are yours complete?",
     "title": "Some other reference topics",
     "content": "In addition to the reference entries that you create for endpoints, the reference documentation must address a few general topics. The base URL The domain-level address is general the same for all calls and each endpoint is appended to the base URL. For example, if the domain were HTTPS://paint-drying.com, the base URL for the APIs might be HTTPS://paint-drying/api/. Thus, if the customer-account-creation endpoint has a URL of .../customer, you know that you have to send the request to HTTPS://paint-drying.com/api/customer. Authentication and Authorization Most APIs are open only to registered users, so they require some kind of token to complete a call, and you’ll have to explain to users how to get one and how to use it. HTTP response codes HTTP responses always include an HTTP response code, and users need specific details about what might have gone wrong that resulted in a particular message. The less generic you can make the error information, the better. If the response codes are the same for all endpoints, however, they can be collected in one place rather than repeated in every reference entry. Throttling (or rate limiting) Users need to know if there is any limit on the number of calls a client can make per second, per hour, per day. ",
     "url": "/topics/Better-API-docs/basic-reference/#some-other-reference-topics",
     
     "relUrl": "/topics/Better-API-docs/basic-reference/#some-other-reference-topics"
-  },"20": {
+  },"19": {
     "doc": "The API reference docs—Are yours complete?",
     "title": "The API reference docs—Are yours complete?",
     "content": " ",
     "url": "/topics/Better-API-docs/basic-reference/",
     
     "relUrl": "/topics/Better-API-docs/basic-reference/"
-  },"21": {
+  },"20": {
     "doc": "Expanding beyond the minimum viable documentation",
     "title": "Beyond MVD: Expanding your documentation as the product matures",
     "content": "If you have sized up your API and written all the docs you need for MVD, you have come a long way, but there’s more. (Like software, documentation is never done.) . ",
     "url": "/topics/Better-API-docs/beyond-mvd/#beyond-mvd-expanding-your-documentation-as-the-product-matures",
     
     "relUrl": "/topics/Better-API-docs/beyond-mvd/#beyond-mvd-expanding-your-documentation-as-the-product-matures"
-  },"22": {
+  },"21": {
     "doc": "Expanding beyond the minimum viable documentation",
     "title": "How-to articles are the next step",
     "content": "After a user is beyond the getting-started stage with an API, they need additional documentation, mostly in the form of how-to articles. The docs will still grow steadily as the product matures, and most of the growth in API docs, other than reference, should be how-to articles. These are step-by-step articles that explain how to accomplish a particular task. Your quickstart article might have covered the basics, but the list of how-to articles needed by your users will continue to grow as the API grows. ",
     "url": "/topics/Better-API-docs/beyond-mvd/#how-to-articles-are-the-next-step",
     
     "relUrl": "/topics/Better-API-docs/beyond-mvd/#how-to-articles-are-the-next-step"
-  },"23": {
+  },"22": {
     "doc": "Expanding beyond the minimum viable documentation",
     "title": "Why the how-to articles are important",
     "content": "A how-to tells your users how to accomplish a complex task, usually one that requires a series of calls made to a number of API endpoints, in the right order, and by including the right data in each request. It’s often difficult to figure out the steps needed to accomplish what you want with an API, when the only guide you have is the reference docs. Offering the right how-to articles saves your users time and spares them the frustration of working it out on their own. ",
     "url": "/topics/Better-API-docs/beyond-mvd/#why-the-how-to-articles-are-important",
     
     "relUrl": "/topics/Better-API-docs/beyond-mvd/#why-the-how-to-articles-are-important"
-  },"24": {
+  },"23": {
     "doc": "Expanding beyond the minimum viable documentation",
     "title": "Final thoughts",
     "content": "Ideally, a set of how-to articles will include a body of tasks that covers what the majority of users wants to do with your API, most of the time. (Unless you have an army of technical writers, 100 percent coverage can be elusive.) . Prioritize the articles that will give the most help to the largest number of users. ",
     "url": "/topics/Better-API-docs/beyond-mvd/#final-thoughts",
     
     "relUrl": "/topics/Better-API-docs/beyond-mvd/#final-thoughts"
-  },"25": {
+  },"24": {
     "doc": "Expanding beyond the minimum viable documentation",
     "title": "Expanding beyond the minimum viable documentation",
     "content": " ",
     "url": "/topics/Better-API-docs/beyond-mvd/",
     
     "relUrl": "/topics/Better-API-docs/beyond-mvd/"
-  },"26": {
+  },"25": {
     "doc": "The process for completing your MVD project.",
     "title": "The process for completing your MVD project",
     "content": " ",
     "url": "/topics/Better-API-docs/completing-mvd/#the-process-for-completing-your-mvd-project",
     
     "relUrl": "/topics/Better-API-docs/completing-mvd/#the-process-for-completing-your-mvd-project"
-  },"27": {
+  },"26": {
     "doc": "The process for completing your MVD project.",
     "title": "Order of operations",
     "content": "When establishing minimum viable documentation for your API, complete the project in this order: . 1.) Reference docs. They have to be finished before you can write the other docs. And your users can’t access the APIs unless these docs are 100 percent complete. Therefore, if you are starting from scratch, complete the reference docs first. If you are improving your documentation, make the review of your reference docs the first part of the process. This step can take a considerable amount of time, depending on the size of your API and resources available. Give the reference docs as much time as necessary – the good will of users depends on the thoroughness of your review. 2.) The quickstart. If you don’t have one, it’s the next step after the reference docs. It will be critical for adoption of the API and for onboarding new users, and that makes its importance second only to the reference guide. 3.) The overview. Of the three main documents, write the overview last, for the following reasons: . | You’ll understand the API and its users better after thinking about the other docs. | Although the overview is critical for some users, it’s a smaller number of users than the other two documents – it can be a strong preference to have the overview whereas the reference is a necessity for every single user. | . 4.) Review the rest. If you are improving an existing set of documentation, review the remaining docs and separate the concepts, tasks, and reference. For example: . | Provide How-to articles that only tell the user how to do one thing, and that describe it in a set of specific steps, without pausing to explain concepts. | Any concepts that need explanation can be extracted into a freestanding article, which you can link to whenever needed. | Move reference information into small articles that only contain one reference topic. Then group the reference articles together in one place. In addition to the usual API reference entries, you might have some short articles that explain things like error codes, rate limiting, and the means for filtering responses that contain large amount of data. | . ",
     "url": "/topics/Better-API-docs/completing-mvd/#order-of-operations",
     
     "relUrl": "/topics/Better-API-docs/completing-mvd/#order-of-operations"
-  },"28": {
+  },"27": {
     "doc": "The process for completing your MVD project.",
     "title": "The process for completing your MVD project.",
     "content": " ",
     "url": "/topics/Better-API-docs/completing-mvd/",
     
     "relUrl": "/topics/Better-API-docs/completing-mvd/"
-  },"29": {
+  },"28": {
     "doc": "Developer resources",
     "title": "For developers",
     "content": "Here’s a quick reference to resources for developers who write their own documentation. ",
     "url": "/topics/for-developers/#for-developers",
     
     "relUrl": "/topics/for-developers/#for-developers"
-  },"30": {
+  },"29": {
     "doc": "Developer resources",
     "title": "Pages you’ll find useful in this site",
     "content": "Designing and planning your documentation . | Minimum viable documentation | Completing the minimum viable doc set | Beyond minimum viable docs | . Writing documentation . | Basic reference | The how-to article | The overview | The quickstart | . Improving documentation . Is your Swagger documentation complete? . ",
     "url": "/topics/for-developers/#pages-youll-find-useful-in-this-site",
     
     "relUrl": "/topics/for-developers/#pages-youll-find-useful-in-this-site"
-  },"31": {
+  },"30": {
     "doc": "Developer resources",
     "title": "Groups that can offer more resources",
     "content": "Write The docs An organization focused on software documentation. They’re known for the annual conference, for the local meetups that members organize, and for their large community on Slack. API the DOCS A conference focusing exclusively on API documentation. The Good Docs Project An open-source project that creates templates for open-source documentation. They offer templates for many kinds of documentation. ",
     "url": "/topics/for-developers/#groups-that-can-offer-more-resources",
     
     "relUrl": "/topics/for-developers/#groups-that-can-offer-more-resources"
-  },"32": {
+  },"31": {
     "doc": "Developer resources",
     "title": "Developer resources",
     "content": " ",
     "url": "/topics/for-developers/",
     
     "relUrl": "/topics/for-developers/"
-  },"33": {
+  },"32": {
     "doc": "For Beginners",
     "title": "Start writing API documentation from square one",
     "content": "This is a series of articles for people who want to learn how to document APIs. ",
     "url": "/topics/for_beginners/#start-writing-api-documentation-from-square-one",
     
     "relUrl": "/topics/for_beginners/#start-writing-api-documentation-from-square-one"
-  },"34": {
+  },"33": {
     "doc": "For Beginners",
     "title": "For Beginners",
     "content": " ",
     "url": "/topics/for_beginners/",
     
     "relUrl": "/topics/for_beginners/"
-  },"35": {
+  },"34": {
     "doc": "The how-to-article",
     "title": "The how-to article",
     "content": "A how-to article is a set of steps that describe how to accomplish one particular goal. Here are some best practices for writing a how-to: . | Try to mention when and why your user might want to perform the task. It’s not always obvious to the reader, even when it’s obvious to you. | Before listing the steps in a process, list the prerequisites. This might include permissions, if the task is for admins only. Users might also need to know about size limits and formats when uploading materials. | Use numbered steps and describe the process in the most logical order, using relatively few steps. If you have 10 or more steps, ask yourself whether you are describing more than one task. | Give users one way to complete a task, rather than describe every way. When you suggest two paths, you’re asking users to think through both of them and choose. Save your readers’ time and effort by eliminating one of the options. | Provide only the information necessary to complete each step. Don’t add reference or concept information that users might or might not need. If it exists elsewhere, you can provide a link. | Walk through the task as you write the instructions. You’ll invariably recall details you might otherwise have left out. | Find a test driver. Invite someone to test drive your how-to article instructions from start to finish, preferably someone who needs help to complete the task, but who is capable of the individual steps. Your how-to article needs this test drive so you can uncover omitted steps, incorrect details, steps out of order, and information gaps that block users. There will be gaps, because you know things about the product that your user doesn’t know, and it’s difficult to adjust for that. | . ",
     "url": "/topics/Better-API-docs/how-to/#the-how-to-article",
     
     "relUrl": "/topics/Better-API-docs/how-to/#the-how-to-article"
-  },"36": {
+  },"35": {
     "doc": "The how-to-article",
     "title": "Guidelines that apply to each step",
     "content": ". | Close to the beginning, make sure the user knows the purpose of the step. For example, maybe I need a piece of data from the response in step one in order to complete a request in step 2. People prefer to know why each step is necessary. | Use code examples. For REST API documentation, this means that you use codeblocks to demonstrate the request and the expected response for every step. | Try to create examples that are nearly ready to use by cut-and-paste. (Your readers may have to plug in authorization tokens, user IDs, and other individual data.) | Follow each example with extensive comments that explain how it works. Some users get started by playing with the example code and they’ll get frustrated if they cannot make it work. For them, the example should be followed by notes like these: . | The parts of the code they need to replace with their own authentication keys and user IDs. | Warnings about common errors that will prevent the request from working. | Notes about the purpose or usage of any request properties or response properties that are unique to this endpoint. | . | . ",
     "url": "/topics/Better-API-docs/how-to/#guidelines-that-apply-to-each-step",
     
     "relUrl": "/topics/Better-API-docs/how-to/#guidelines-that-apply-to-each-step"
-  },"37": {
+  },"36": {
     "doc": "The how-to-article",
     "title": "The how-to-article",
     "content": " ",
     "url": "/topics/Better-API-docs/how-to/",
     
     "relUrl": "/topics/Better-API-docs/how-to/"
-  },"38": {
+  },"37": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"39": {
+  },"38": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Minimum viable documentation for APIs",
     "content": "Minimum viable documentation set (MVD) is the smallest amount of documentation needed so that the majority of developers willingly adopt an API, just enough that they don’t feel overwhelmed by frustration or give up because the API wastes their time. When frustration is high, it’s because information is missing, incomplete, or too hard to find. For example, there are no code samples, or no tutorials, or sometimes, no information about how the API works on a high level. The MVD includes the most critical information that new users need in order to get started and categorizes it in a way that makes things easier to find and use. Here are the three document types that you need in order to have minimally viable documentation for an API: . | Reference. For REST APIs, this means complete catalog of endpoints, their methods, the parameters that can be used for the request, and the attributes that can be returned in the response. For the reference section, completeness and accuracy are critical. Nothing infuriates users like a parameter with no description at all. | A quickstart or Getting Started document. This should show users the shortest path to completing whatever task the API helps them with, so they can understand how it works and appreciate the benefits. | An overview that explains what the API does, how it works, what problem it solves, and any other high-level information the user might want to understand before adopting the API. | . There are compelling reasons for this architecture, with exactly three parts, as opposed to one or four. ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/"
-  },"40": {
+  },"39": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Different kinds of users",
     "content": "Firstly, all three types of documentation are needed, because there are different types of users, and different users bring their own expectations. Some APIs offer only reference information, but this doesn’t isn’t enough to please every potential user of the API. (The reference section is seldom, if ever, left out but will turn users away if it lacks completeness.) . API users have different ways of getting started and different ways of using the docs. Some developers go straight to work with code that they copy from the reference section and modify. Some follow a tutorial or quickstart, and then try to leap from the example task into a real task after they have finished. A small number are unwilling to adopt an API until they can look at the overview (and possibly some support information). Attention to how developers get started with the API is important, because most of the pain in using any technology is in the beginning. It’s important to make sure that users have the right kind information so that they don’t walk away and try some other product, and it’s important to make learning easy enough that they don’t give up. ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#different-kinds-of-users",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#different-kinds-of-users"
-  },"41": {
+  },"40": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Different kinds of information",
     "content": "It’s no coincidence that there are exactly three documents in this set and not one or two. You might wonder why all the information that developers need can’t be dumped into a single document that contains everything. The three documents in the MVD correspond to information types that are natural to all kinds of technical and non-technical writing, and because of the way people use them it’s best to keep them separate. First, here are the types: . Conceptual information A more open form used to explain ideas. Conceptual information isn’t as structured as the other two types, and its goal is understanding. In the MVD, the Overview contains most of the conceptual information. Reference information Any dictionary-like collection of consistently structured entries, usually consulted when the reader wants to look up a precise item of data. In the MVD, the API Reference section contains all the reference information. Task information A set of steps that tells the reader how to complete a task when the reader’s goal is to get something done. In the MVD, this would be the quickstart. Joanna Bujes had a unique way of introducing these concepts when she taught software technical writing at UC Berkeley Extension in 2016. One evening early in the fall semester, Bujes (now my manager at Synopsys Software Integrity Group) walked around the small classroom with an armload of books that she said were from her own shelves. In front of every student she placed a different cookbook. Professor Bujes pointed out that, just like technical documentation, each cookbook used the three information types introduced above. | Conceptual information: Introductory chapters explain things such as how to select and store meat, fish, produce, and other ingredients; what kind of equipment to use for baking bread, and how to handle dough. | Reference information: For example, a table correlating pounds of fruit to the number of quart jars needed to preserve them. | Task information: Every cookbook contains step-by-step instructions for cooking numerous recipes. | . The cookbook is a good analogy for technical documentation, because it demonstrates that the typology that divides material into concept, reference, and task is an organic and natural way to organize information. The use of these three types makes it easier for readers to find the information they want, when they want it. In other words, readers most likely use reference, task, and conceptual information at different times and for different reasons. Keeping them separate means not only that readers know where to look for the information that they want, but that they don’t wade through unnecessary information, unrelated to the task at hand. To use the cookbook as an example, a significant number of users might want to read the nine-page explanatory article that begins the bread chapter in The Joy of Cooking – it explains how to mix bread dough; how to knead and proof correctly; how to achieve hard, soft, or glossy crust; and how to shape dough into loaves. Frequent users might eventually consult the five-and-a-half page reference section that runs down numerous kinds of flour (The following are just the wheat flours: all-purpose, cake, bread, presifted, pastry, instant, self-rising, semolina, farina, whole-grain, bran, cracked wheat, gluten flour, wheat germ flour, triticale flour. Then there’s an entire listing of non-wheat flours.) . Imaging trying to bake bread if the author had combined all that information with the recipes, most of which run a half page or less. It would be a longer and more difficult task to follow an individual recipe, because you’d have to skim all the superfluous information mixed in with the actual steps. And later, if you wanted to know the difference between whole-grain flour and bran flour, you’d have a heck of a time remembering where you’d seen each of them. For the same reasons, we avoid mixing conceptual information, reference information, and task information when we write software documentation. ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#different-kinds-of-information",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#different-kinds-of-information"
-  },"42": {
+  },"41": {
     "doc": "Minimum viable documentation for APIs",
     "title": "The Payoff: What the MVD does for your docs",
     "content": "The eventual payoff for thinking about MVD when you work on the docs is two-fold: . | A big increase in learnability in the short term | A moderate increase in usability for ongoing users over the long term | . ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#the-payoff-what-the-mvd-does-for-your-docs",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#the-payoff-what-the-mvd-does-for-your-docs"
-  },"43": {
+  },"42": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Increased learnability",
     "content": "Learnability is a golden metric for adoption of the API – and the MVD is all about learnability. It ensures that the key information is present for various kinds of users in various kinds of situations, and thus provides all of them with what they need to get going. One reason that learnability is such a big deal in software documentation is that most of the pain in using software is right at the beginning. If people are going to get frustrated and quit using your software, that will most likely happen a short time after they start; the best way to increase the number of users is to make it as painless as possible to get going. Because people tend to choose software that makes it easier to get going, people who make APIs have been discovering that effective documentation is a revenue driver, because whoever has the best docs can leverage it to win the best deals. (Stripe is a good example of a company that leveraged developer experience to grow its footprint in the market.) . ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#increased-learnability",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#increased-learnability"
-  },"44": {
+  },"43": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Increased usability for ongoing users",
     "content": "While it’s important to get users to the onramp, there’s also the ongoing usability of the reference docs, after they’ve been adopted. The MVD model continues to pay dividends for these reasons: . | Thoroughness of the reference docs is a cornerstone of the MVD and is also important for ongoing usage. | Applying MVD means organizing information into concepts, tasks, and reference, so that it’s easier for users to find what they need when they need it. The findability saves time and effort. | . ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#increased-usability-for-ongoing-users",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#increased-usability-for-ongoing-users"
-  },"45": {
+  },"44": {
     "doc": "Minimum viable documentation for APIs",
     "title": "What the MVD doesn’t do",
     "content": "The MVD is a framework to start a new set of docs or assess existing documentation for completeness. Don’t assume that it answers all the questions you might have about your documentation. Here are some things it does not do: . | Measure quality. The MVD tells you whether all the minimal elements are present, not whether they are well-written. (More on that later.) | Measure maturity. As your product matures, your documentation should mature along with it. Once you have the minimum amount of documentation, you will soon decide that it isn’t enough. In addition to a quickstart, users will want you to add more tasks to cover the workflows that they use to get things done. Mature documentation has all the elements of the MVD – and more. | Provide long-term documentation architecture. Three simple sections might be fine in the beginning, but later your documentation will become more complex, and you’ll have to come up with a sensible way to organize it. Think of the cookbook again: The Joy of Cooking has expanded over the years to include thousands of additional recipes, and chapters discussing cocktails, frozen desserts, and basic ingredients have been added, removed, and then restored. A quick look at the table of contents (of The Joy of Cooking or any other well-designed book) will demonstrate that the organizing principle must always be the needs of the user. Who are the readers? What do they want to accomplish? What do they need to know in order to do that? In what order will they need to know? | . ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#what-the-mvd-doesnt-do",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#what-the-mvd-doesnt-do"
-  },"46": {
+  },"45": {
     "doc": "Minimum viable documentation for APIs",
     "title": "Further reading",
     "content": "Now that you understand the three document types that comprise the MVD, the next logical question is how to write each of those. If you’re ready to get started on a new set of documentation, or to improve existing docs, take a look at my content checklists on GitHub for each document type: . | API Overview . | API Reference . | API Quickstart . | . ",
     "url": "/topics/Better-API-docs/minimum-viable-docset/#further-reading",
     
     "relUrl": "/topics/Better-API-docs/minimum-viable-docset/#further-reading"
-  },"47": {
+  },"46": {
     "doc": "The API overview",
     "title": "Non-reference documentation: Writing the overview",
     "content": "If the project is brand new or hasn’t had a technical writer before, it most likely lacks an overview. You should write one. The overview should tell your users what they need to know before adopting or before using the API. Every product needs an overview to provide those answers, because without one a small number of prospects will never become users. Some users have a very specific requirement that they want the product to fill, or they just have a need to understand your software before they trust it. If the entire product is an API, the overview is straightforward. A product that already has an overview and that spans multiple interfaces (a web app, command line clients, plug-ins, and an API, for example), still needs to explain some things about the API. You might want to call that document an introduction, or something else, to avoid confusing with the product overview. The API overview answers broad conceptual questions about the API (technical specifics are in the reference docs), and the questions will be different depending on what the API does and who uses it. Some questions you may need to answer: . | What does the API do? (What does not do?) | How does it work? (What is the architecture? What technology is under the hood?) | What key concepts does the user need to understand? (Is there a data model? What services are available?) | When and why would someone want to use the API? | What problem does it solve? | What are the typical use scenarios? (Who uses it and what are they trying to accomplish?) | . Some other minor questions: . | What docs are available? | Where do you find critical info about auth, compatibility with other software and platforms, data formats, etc. | Where to find out about administrative tasks like creating users and groups, assigning roles and permissions, and using external identity providers. | . ",
     "url": "/topics/Better-API-docs/non-reference-overview/#non-reference-documentation-writing-the-overview",
     
     "relUrl": "/topics/Better-API-docs/non-reference-overview/#non-reference-documentation-writing-the-overview"
-  },"48": {
+  },"47": {
     "doc": "The API overview",
     "title": "The API overview",
     "content": " ",
     "url": "/topics/Better-API-docs/non-reference-overview/",
     
     "relUrl": "/topics/Better-API-docs/non-reference-overview/"
-  },"49": {
+  },"48": {
     "doc": "Writing the Quickstart",
     "title": "The Quickstart",
     "content": "A quickstart helps new users get through their first experience using software. There are at least two ways to write an API quickstart: . | Bare-bones. An approach that takes the user as far as authenticating and making one successful connection with the API. | Grand tour. A longer tutorial that demonstrates the most important functionality of the API and ensures that your users know how to derive benefits from the API. | . ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/#the-quickstart",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/#the-quickstart"
-  },"50": {
+  },"49": {
     "doc": "Writing the Quickstart",
     "title": "The bare bones approach",
     "content": "When the API is large and complex, you cannot include all the features in a single walk-through, either because there are a great many features, many kinds of users, or both. Rather than force-march a new user through every feature available, one way to go is a Quickstart that explains how to do most basic things: . | Authenticate | Make a simple call that verifies connectivity and authorization (such as a system status check). | . This approach is suitable when: . | You have expert end-users who don’t require a lot of hand holding. | You have many kinds of users, a great many featurs to document, or both – in other words, the API is so feature-rich that you can’t describe it all in one document and you can’t try everything in one sitting. | You plan to quickly follow up with some additional procedures that explain how to use the main features of the API. | You’re improving documentation, and you find that the API already has a great many How-to articles to explain the features, but happens to lack instructions for using it the first time. | . If you use this method, stay tuned for an article about how to write the How-to articles that you might need to add next. Your users will definitely be looking for some guidance about how to use the features they need, as soon as they complete the quickstart. ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/#the-bare-bones-approach",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/#the-bare-bones-approach"
-  },"51": {
+  },"50": {
     "doc": "Writing the Quickstart",
     "title": "The grand tour",
     "content": "This approach walks the user through every step of the first usage, from creating a token, to making a call, to interpreting the results. The simpler the API, the easier it is to provide a detailed tutorial. A really good grand-tour is a kind of tutorial that tries to do all the following: . | Allow the user to experience the full power of what your API can do. | Make sure the user succeeds, and quickly. Make it seem easy even if that means demonstrating the easiest way to accomplish something, rather than the production method. | Demonstrate the key features that users will be leveraging 80-90 percent of the time. | . ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/#the-grand-tour",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/#the-grand-tour"
-  },"52": {
+  },"51": {
     "doc": "Writing the Quickstart",
     "title": "A note about terminology",
     "content": "You might see other names for the Quickstart, like “Getting Started.” I’ll do my best to be consistent and clear about what I mean within this site, but keep in mind that it’s not definitive. The meaning of these terms isn’t consistent from company to company – or even from writer to writer – so you have to be prepared to meet people who use different terms or think they mean something slightly different. ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/#a-note-about-terminology",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/#a-note-about-terminology"
-  },"53": {
+  },"52": {
     "doc": "Writing the Quickstart",
     "title": "Further reading",
     "content": "For additional ideas about how to write the quickstart, see these resources: . | The basic quickstart template in my GitHub repo. | The guide to writing how-to articles on this site. (A quickstart is one kind of how-to.) | . ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/#further-reading",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/#further-reading"
-  },"54": {
+  },"53": {
     "doc": "Writing the Quickstart",
     "title": "Writing the Quickstart",
     "content": " ",
     "url": "/topics/Better-API-docs/non-reference-quickstart/",
     
     "relUrl": "/topics/Better-API-docs/non-reference-quickstart/"
-  },"55": {
+  },"54": {
     "doc": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "title": "Example API reference entry",
     "content": "The following is a reference entry for one endpoint on a fictional API. This is just one way to represent all the necessary information. ",
     "url": "/topics/Better-API-docs/reference-example-container/#example-api-reference-entry",
     
     "relUrl": "/topics/Better-API-docs/reference-example-container/#example-api-reference-entry"
-  },"56": {
+  },"55": {
     "doc": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "title": "About this example",
     "content": ". | This is different from the output you’re used to seeing, if you use Swagger or some other automated tool to generate output. I use Swagger in the projects that I’m currently working on, and I wouldn’t give up the “Try it out” feature. Nevertheless, representing a reference entry (or reading it) without Swagger is a useful tool because it gives you another way to represent all the information required by the user of the API. This is still a good way to quickly represent and talk to users about APIs that aren’t in Swagger or to represent future APIs for internal technical documentation. | This example describes one endpoint. A complete reference section might include dozens or hundreds of endpoints. | All the request parameters and response properties are explained, so that readers will have enough information to make a request and to use the resulting data. | Response properties are separated into three tables, according to the hierarchy of the JSON data. There are separate tables for books and contact because they are objects contained within the main object. It can be more difficult for readers to understand the properties when the JSON data has many levels of nested object and they are all represented in one table. After a certain point, however, nested objects become difficult to represent and the model used here will not fare much better than any other. | . ",
     "url": "/topics/Better-API-docs/reference-example-container/#about-this-example",
     
     "relUrl": "/topics/Better-API-docs/reference-example-container/#about-this-example"
-  },"57": {
+  },"56": {
     "doc": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "title": "The example",
     "content": " ",
     "url": "/topics/Better-API-docs/reference-example-container/#the-example",
     
     "relUrl": "/topics/Better-API-docs/reference-example-container/#the-example"
-  },"58": {
+  },"57": {
     "doc": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "title": "Example reference entry: A single API endpoint",
     "content": "Get account by ID Uses customer_id number to fetch the individual customer’s account information, including name, shipping address, contact info, and purchased and favorited books. Syntax . GET    /account/{customer_id} . Request . curl --location –request https://askmeaboutapis.com/BookShop/api/account/495878384505 \\ --header “accept: application/vnd.api+json” \\ --header “content-type: application/vnd.api+json” \\ --header “Authorization: Bearer {customer_web_token} . About the request: . | Insert your own customer ID and web token in order for the request to work. These are found in the first and last lines. A variable is substituted for the web token in this example for the sake of brevity. | Remember, it's a fictional API. This request will not work if you plug it into your terminal. | . The parameter in this request | Name | Required (y/n) | Data type | Description | . | customer_id . | Yes | Int | This is the unique, 12-digit customer ID created when the account is established. | .   . Response { \"name\": \"Matthew Example\", \"customer_id\": 495878384505, \"gdpr_permission\": True, \"gdpr_types\": [promotions, events, purchases], \"contact\": { \"address\": \"6400 Mission Street, Top of the Hill, Daly City CA\", \"phone\": \"(415) 555-1212\", \"email\": \"matthew@internet.com\", \"preferred_contact_method\": \"text\" }, \"books\": { \"bought\": [0596001282, 0815393814, 979-8621549824, 1491911689, 0132480522], \"favorited\": [979-8621549824, 1491911689, 0132480522] } } . About the response . | The example above is exhaustively inclusive of the response properties. Everything that the end point can return is shown. | . Response properties The three following tables describe all the response object properties in more detail. Top level response properties | Name | Always returned (y/n) | Data type | Description | . | name | yes | string | Customer name | . | customer_id | yes | int | Customer 12-digit ID, as assigned when the account is created. | . | gdpr_permission | yes | Boolean | Indicates whether the customer has granted permission to be contacted about matters other than account maintenance. | . | gdpr_types | yes | array | A list containing the types of contact approved by the customer. Possible values include: . | promotions – Communications about books the customer might want to buy, such as a new paperback edition of a book that the customer favorited. | events – Notification of events such as readings by a favorite author, but without any promotional sales content. | purchases – Updates about completed purchases, such as confirmation, delivery updates, and other recommended reading. | none – Indicates that the customer wants no communications except for account maintenance. | . The default value is none. | . | contact | yes | object | The contact object contains multiple properties related to customer contact information. See the table that follows this one. | . | books | yes | object | The books object contains two properties to indicate books that were purchased or favorited by the customer. See the table that follows this one. | . Properties of contact object | Name | Always returned (y/n) | Data type | Description | . | address | yes | string | The customer's permanent address. This is used as the default shipping address but is not used as the billing address for online payments. | . | phone | yes | string | The main phone number provided by the customer. | . | email | yes | string | The email provided by the customer when setting up the account. This is the email address used for all communications with the customer and for recovering the account. | . | preferred_contact_method | yes | string | Determines how we initiate contact with the customer for issues other than account maintenance. Possible values are: . | snail_mail | email | phone | text | . The default value is email. | . Properties of books object | Name | Always returned (y/n) | Data type | Description | . | bought | yes | array | A list containing reference numbers of books already purchased by the customer. The members of this list can be a 10-digit or 13-digit ISBN number. | . | favorited | yes | array | A list containing reference numbers of books that have been favorited by the customer. The members of this list can be a 10-digit or 13-digit ISBN number. | . ",
     "url": "/topics/Better-API-docs/reference-example-container/",
     
     "relUrl": "/topics/Better-API-docs/reference-example-container/"
-  },"59": {
+  },"58": {
     "doc": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "title": "An example API reference for modeling APIs and their usage, without using the OAS3 schema.",
     "content": " ",
     "url": "/topics/Better-API-docs/reference-example-container/",
     
     "relUrl": "/topics/Better-API-docs/reference-example-container/"
-  },"60": {
+  },"59": {
     "doc": "What's missing from your Swagger docs?",
     "title": "What’s missing from your Swagger docs: How to ensure completeness when working with OpenAPI 3",
     "content": "It’s easy to assume that the OAS3 spec results in documentation with more accuracy or completeness compared to documentation that isn’t programmatically generated. Not necessarily. The spec is ultimately written by humans, and information can be missing or incorrect. For example: . | Lack of a description can leave users unable to figure out how an endpoint works, or even what it does. | The docs can incorrectly state that a parameter is required when it is not (and vice versa). | They can indicate that a parameter is a string and not mention that there are only three possible values. | They can lack examples. | . Those are common occurrences in OAS3 specs. Don’t assume, therefore, that the OAS3 spec is more reliable than ordinary documentation or ordinary code. Verify the correctness and completeness whenever you add new information to the spec. Verifying the correctness requires its own set of practices. There is no guarantee that the API will behave the way the spec says it will. It’s a good practice to test-drive and verify every endpoint, but that’s a topic for another day. Completeness of the OAS3 spec is the focus for the rest of this article. ",
     "url": "/topics/Better-API-docs/swagger-reference/#whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#whats-missing-from-your-swagger-docs-how-to-ensure-completeness-when-working-with-openapi-3"
-  },"61": {
+  },"60": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Provide a description for everything that needs one",
     "content": "Descriptions comprise the most important part of the spec. Documentation calls for effective descriptions and it requires an effort to include the descriptions in every place where one can be included. That might sound like a lot, so I’ll elaborate. When it comes to describing API properties, err on the side of explaining too much, because a reference document is like a dictionary —— you don’t have to read the entries that you don’t need. But when an entry is completely lacking it can stop you cold. Therefore, provide a description for everything. Don’t think that thorough naming will eliminate the need for descriptions. You might think your naming makes the purpose of something evident, but the words you choose for labels will always have different associations for other people. If the description is omitted some readers will become lost or frustrated because they don’t understand how the endpoint is supposed to work. ",
     "url": "/topics/Better-API-docs/swagger-reference/#provide-a-description-for-everything-that-needs-one",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#provide-a-description-for-everything-that-needs-one"
-  },"62": {
+  },"61": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Describe what the entire service does",
     "content": "Include a description at the top of the spec: . swagger: \"3.0\" info: description: \"This is the API for your electric flying vehicle .\" . Include a general description of what the service does, with just enough detail so that readers know whether they are in the right place. (When I say service here, I mean the level of the interface that is described by the entire spec. Your product might fit into one spec, but it might require multiple specs or dozens of them.) . If the service belongs to a larger set of services, explain any rules of usage that apply only to the endpoints in this service. For example: Is there a filtering or querying language to limit the amount of data returned in the response? Are there any terms or concepts that might trip users up? (If so, be brief.) Is there anything else idiosyncratic about this service that users might need to know? . ",
     "url": "/topics/Better-API-docs/swagger-reference/#describe-what-the-entire-service-does",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#describe-what-the-entire-service-does"
-  },"63": {
+  },"62": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Describe collections",
     "content": "When grouping operations with tags to create a collection, include a root-level global tags section near the top of the spec so that you can include a description for each tag. For example: . swagger: \"3.0\" info: description: \"This is the API for your electric flying vehicle .\" host: \"flying_machine.swagger.io\" basePath: \"/v0\" tags: - name: \"destinations\" description: \"Save and reuse locations where you might land again later.\" - name: \"appointments\" description: \"Keep track of appointments and automate your travel to and from them, \\ so that you can keep your commitments in the order that you want to.\" . The tags section begins on line six. Each entry includes a tag name and a description. Descriptions of a collection might include: . | Describe briefly what the collection is for. | Define any terms or concepts that are unique to the collection. | . ",
     "url": "/topics/Better-API-docs/swagger-reference/#describe-collections",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#describe-collections"
-  },"64": {
+  },"63": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Describe endpoints",
     "content": "Each endpoint requires both a two- or three-word summary and a longer description. When I use the term endpoint, I mean a URL path combined with a single HTTTP verb. By that definition, each of the basic reference entries in your output represent an endpoint. Using both the summary and the description maximizes the usability of your final documentation. In docs built by Swagger UI and other tools, readers will see the summary when they scroll down the entire page, with most of the content collapsed. They’ll see the longer description when they click on an endpoint entry and expand it. Here’s an example: . paths: /destination/: post: tags: - \"destinations\" summary: \"Creates a new destination.\" description: \"Use the POST /destination operation to set up \\ a _new_ travel destination, for a place that you might want \\ to revisit repeatedly. (To update an existing destination, \\ use PATCH /destination.)\" . The two following examples show some output with all the necessary summaries and descriptions. This example shows one item expanded to reveal the longer description. This is the place to put any important information about usage of the endpoint. Description of an individual endpoint might include: . | What does it do? In other words, what is the benefit for the user of the API? | When and why would a user need the endpoint? This is especially important if there is a similar endpoint that can do approximately the same thing. Clarify when the user should choose one versus the other. | Are there any warnings the user would need about what then endpoint does (e.g. does it delete data or users)? | . ",
     "url": "/topics/Better-API-docs/swagger-reference/#describe-endpoints",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#describe-endpoints"
-  },"65": {
+  },"64": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Describe parameters and response properties.",
     "content": "Provide a description of all the parameters for every request and the properties for every response. Every single one. Include everything users might need to know when utilizing the parameter or property. | What the parameter does. (The user should understand how changing the value will change the results.) | When and why would the user need it? This goes for response properties as well; users can be confused about what a piece of information is, and what you expect them to do with it. | Always provide an example value. The possible exceptions are for Booleans and for entries where you’ve already provided a default value. (Developers never complained about the presence of copious examples.) | Use the advice in the section following this one, with regard to providing all requirements so that a user can complete the API call. | . Lastly, if you use an object for both the request and the response, be careful to write descriptions that work in either situation, and if this isn’t possible, don’t reuse the object. ",
     "url": "/topics/Better-API-docs/swagger-reference/#describe-parameters-and-response-properties",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#describe-parameters-and-response-properties"
-  },"66": {
+  },"65": {
     "doc": "What's missing from your Swagger docs?",
     "title": "Provide all the details that are essential to making an API call",
     "content": "Users need more than a description to successfully call the endpoint. You might already know about the attributes discussed in the following section, but they’re omitted or incorrect frequently enough to be worth mentioning. Consider this a checklist for your parameters: . | Always indicate default values by using default: &lt;value&gt;. | Indicate the data type by using type and format. | If there is a limited range of acceptable values, provide them by using enum. | If the parameter is required in order to complete the call, use required: true | Use example to provide an example value. | . Related OpenAPI 3.0 docs: . | OpenAPI 3.0 Specification | Operations with tags | Using enum | Data types | Parameters (Includes usage for required and default attributes.) | . ",
     "url": "/topics/Better-API-docs/swagger-reference/#provide-all-the-details-that-are-essential-to-making-an-api-call",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/#provide-all-the-details-that-are-essential-to-making-an-api-call"
-  },"67": {
+  },"66": {
     "doc": "What's missing from your Swagger docs?",
     "title": "What's missing from your Swagger docs?",
     "content": " ",
     "url": "/topics/Better-API-docs/swagger-reference/",
     
     "relUrl": "/topics/Better-API-docs/swagger-reference/"
-  },"68": {
+  },"67": {
     "doc": "Toolchain families",
     "title": "Toolchain families",
     "content": ". A toolchain is a description of all the tools, components, and processes used to build documentation. For examples of an individual toolchain and a toolchain comparison, see this article: Comparing doc tools: Stop doing the apples-to-oranges thing . A toolchain family is a description of a type of toolchain. Although every organization has slightly different practices, there are a handful of common approaches that most people would recognize. I listed common toolchain families here because it's helpful to understand why an organization would pick each of them – even if you wouldn't expect to use some of these yourself. The tools chosen by an organization tend to correspond to requirements. They may have been chosen to solve a particular problem or address an organizational need. When you think about changing a toolchain, ask why the current tools were chosen in the first place because the requirements haven't necessarily changed. In other words, if you use a new tool, it might have to meet the same requirements that the old tool met, in addition to the things that you want it to do. Here are the most common toolchain families: . | Docs as Code | Structured markup (e.g. the DITA approach. It's good to remember that Docs as Code isn't the only type of toolchain that involves automation.) | Desktop publishing (The unstructured FrameMaker approach) | Wikis (Confluence) | Custom applications (Stripe docs) | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"69": {
+  },"68": {
     "doc": "Toolchain families",
     "title": "Docs as Code ",
     "content": "Description: This approach adapts the tools and processes of code development for documentation, so that developers will be more likely to contribute to documentation. It does away with the tools typically favored by technical writing teams and replaces them with simple text editors or IDEs and Git. ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"70": {
+  },"69": {
     "doc": "Toolchain families",
     "title": "The essentials: Docs as Code ",
     "content": "| Main use cases | Strengths | Limitations | . | . | Developer-facing docs. | Written by developers. | Published on the web. | Uses an automated build to produce documentation. | Stores documentation source code in the same repo as the code, or very close to it. | Open source. | . | . | Allows developers to contribute to documentation by allowing the use of tools familiar to developers. | Initially inexpensive to deploy because tools are free and already in use in the same organization. Moves away from the need for specialized tools. | Easy to incorporate into the engineering workflow, so that developers can write the documentation. | Allowing developers to write documentation reduces the cycle time involved in updating the docs. | . | . | Markdown and other plain-text markup languages are not the best when you have a lot of tables, and tables are commonplace in technical documentation. | Unlike XML, Markdown files are not required to be valid as a condition of processing, so invalid markup can lead to garbled output, without warning. This combined with finicky tables and bulleted lists can lead to unsatisfactory results. | Open-source tools often (but not always) lack the features that come with more advanced tools and mature markup languages. (For example: search, metadata tagging, and easy reuse.) Sometimes developers are needed to reproduce features that already exist elsewhere. | PDF output is often not included. | Automation requires ongoing support and maintenance from specialized developers--not a realistic option for small writing teams that lack a dedicated tool developer. | . | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"71": {
+  },"70": {
     "doc": "Toolchain families",
     "title": "Docs as Code: common components of this toolchain family",
     "content": "| Layers | Examples of commonly used tools and components | . | Deploy | . | Deployment options are numerous and are similar across most toolchain families. | For automated docs, deployment from a repo is standard; within the docs as Code family there are specialized services like Read the Docs, Netlify, and SwaggerHub. Also deployment to simple delivery services like Google Content Delivery Network or Amazon S3 buckets. Docs can be uploaded to larger systems like Salesforce and Zendesk. | . | . | Build | . | Static site generators like Jekyll and Hugo. | For OAS3 specifications, Swagger UI, Redocly, and others. | . | . | Transform | . | Automation | Services like Jenkins, GitHub Actions, and GitLab CI/CD. | . | Source code management | . | Source code management tools, like Git and Perforce. | Repositories like GitHub, GitLab, and Bitbucket. | . | . | Editing tools | Plain text editors and IDEs. (Whatever the developers are already using to write code.) | . | Markup language | . | Simplified markup languages like Markdown, ascii-doc, and reStructured Text. | OAS3 specification files, in YAML or JSON. | . | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"72": {
+  },"71": {
     "doc": "Toolchain families",
     "title": "Structured markup",
     "content": "Description: Structured markup is the original home of programmatically generated documentation. Years before the docs-as-code approach came along, DITA and DocBook were invented specifically for technical documentation. ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"73": {
+  },"72": {
     "doc": "Toolchain families",
     "title": "The essentials: structured markup",
     "content": "| Main use cases | Strengths | Limitations | . | . | Automated layout. Programmatically builds large projects, with potentially thousands of topics. | Translation. Creates efficiency by allowing automated layout of translated text, so that changes in length don't result in costly manual resetting of text that would be necessary on some systems. | Single sourcing/reuse. When files become a component in multiple publications or multiple forms of output, this type of toolchain enables the reuse of a single unit of content in many places. | . | . | Automated builds for voluminous documentation sets. | Continuous integration, with docs building whenever there is a commit on the main branch in SCM. | Validation. Builds break when the DITA is invalid, preventing potentially flawed documentation from getting published. | Consistency. Can be used to enforce consistency of content and structure in an automated way. (For example the schema might require that a topic begins with a short description.) | Easier to translate than some formats, because you can send one small topic for translation, rather than the entire document. Also, you don't have to reflow a layout when translating because the layout is automated. | Reuse features are better and more varied than with other toolchains. | Conditional formatting. Elements can be tagged so that they only appear in certain output formats (i.e. PDF only) or in certain versions of the docs (For example, Windows, but not macOS). Conditionalized text can be managed down to the level of one word (or one character if you want). | Metadata tagging. Content can be tagged to show that it is designed for certain types of users or for certain groups. | Creating dynamic links across topics and between documentation sets, links that don't break if the site is reorganized or moved. | . | . | The editing tools and markup languages take time to learn. Developers may reject these in favor of plain text in a text editor or IDE. | Specialized tools require a license for every user, which can be a barrier. | Automation requires ongoing support and maintenance from specialized developers--not a realistic option for small writing teams that are starved for resources. | . | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"74": {
+  },"73": {
     "doc": "Toolchain families",
     "title": "Structured markup: common components",
     "content": "There are two distinct approaches. One involves a text editor like Oxygen, SCM like Git, and a publishing solution. The other approach involves an all-in-one component content management system (CCMS), which contains everything from the editing environment to version management to transformation. Sometimes even deployment and hosting of the published content. | Layers | Examples of commonly used tools and components | . | Deploy | . | Deployment options are numerous and are similar across most toolchain families. | For automated docs, deployment from a repo is standard. Also deployment to simple delivery services like Google Content Delivery Network or Amazon S3 buckets. Docs can be uploaded to larger systems like Salesforce and Zendesk. | . | . | Build | . | For desktop builds, the editing tools also create output. (Oxygen, Framemaker, and XMetal) | For automated builds, DITA-OT and XSLT custom transforms can be used. | A built-in publishing engine is used in the case of a CCMS, like Ixiasoft, Paligo, or Adobe Experience Manager. | . | . | Transform | . | Automation | Services like Jenkins, GitHub Actions, and GitLab CI/CD. | . | Source code management | . | Git and other SCM. Github and similar repository services. | Built-in version control, in the case of a CCMS, like Ixiasoft, Paligo, or Adobe Experience Manager. | . | . | Editing tools | . | Markup-aware text editing tools, like Oxygen, Framemaker, XMetal, and Madcap Flare. | Built-in editing environment, in the case of a CCMS, like Ixiasoft, Paligo, or Adobe Experience Manager. | . | . | Markup language | Structured languages like DITA, DocBook, XHTML, and S1000D. | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"75": {
+  },"74": {
     "doc": "Toolchain families",
     "title": "Desktop publishing tools",
     "content": "Description: Desktop publishing tools with binary file types might be relied on where PDF is a requirement, especially if there's a need for PDF with a slick layout. PDFs are a mandatory deliverable for certain industries, including medical devices, pharmaceutical companies, certain automotive applications, and government or military contractors. PDF output may be required by law, by a regulatory body, or by a contract with a customer. A team that uses desktop publishing in a documentation set out of necessity, might have other docs containing APIs and SDKs that call for a different approach – this can lead to a complex situation when choosing tools. The team might be best served by an environment where they're allowed to use different tools and processes for different sets of documentation. ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"76": {
+  },"75": {
     "doc": "Toolchain families",
     "title": "The essentials: desktop publishing",
     "content": "| Main use cases | Strengths | Limitations | . | Documentation where PDFs are required. (This category existed before the advent of HTML documentation.) Publications that require precise layout, which can't be delivered by automation, like a slick, well-designed PDF. | . | PDF output. | Precise, pixel-perfect layout. | Conditional formatting, to create multiple editions of a document for slightly different products or platforms. | . | . | Web output can be difficult to produce and may look like a PDF. | Proprietary file formats, usually binary, restrict users to one tool and aren't compatible with many SCM systems. | . | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"77": {
+  },"76": {
     "doc": "Toolchain families",
     "title": "Desktop publishing: common components of this family",
     "content": "| Layers | Examples of commonly used tools and components | . | Deploy | . | Deployment options are numerous and are similar across most toolchain families. | Deployment to simple delivery services like Google Content Delivery Network or Amazon S3 buckets. Docs can be uploaded to larger systems like Salesforce and Zendesk. | . | . | Build | . | For desktop builds, the same tool used for editing performs the build. (Word, FrameMaker, InDesign.) | Build and transform can be automated through proprietary services like FrameMaker Publishing Server, InDesign Server, and Adobe Experience manager. Automated builds are less common with binary file types. | . | . | Transform | . | Automation | Build and transform can be automated through proprietary services like FrameMaker Publishing Server, InDesign Server, and Adobe Experience manager. | . | Source code management | . | Cannot be stored in typical SCMs (like Git and Perforce) because they do not handle binary files well. | Can be used with a component content management system that offers version support. | . | . | Editing tools | Word, unstructured FrameMaker, InDesign | . | Markup language | NA | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"78": {
+  },"77": {
     "doc": "Toolchain families",
     "title": "Wikis: the all-in-one solution",
     "content": "Description: A wiki is a top-to-bottom solution that provides everything from the editing environment to deployment. ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"79": {
+  },"78": {
     "doc": "Toolchain families",
     "title": "The essentials: wikis",
     "content": "| Main use cases | Strengths | Limitations | . | Frequently used for internal documentation. | . | Easy collaboration. | Allows anyone in the organization to contribute content. | . | . | PDF options may be somewhat limited. | Developers may be just as avoidant of wikis as other writing tools. | . | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"80": {
+  },"79": {
     "doc": "Toolchain families",
     "title": "Wikis: common components of this toolchain family",
     "content": "| Layers | Examples of commonly used tools and components | . | Deploy | All-in-one systems offer everything from the editing environment to deployment of the final product. For example: Confluence or MediaWiki (Used by Splunk to create Ponydocs.) | . | Build | . | Transform | . | Source code management | . | Editing tools | . | Markup language | . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"81": {
+  },"80": {
     "doc": "Toolchain families",
     "title": "Custom-made documentation apps and developer portals",
     "content": "Description: Stripe developed their own documentation site with enough functionality that it could be considered an application in its own right. For example, users can sign into the Stripe docs and test API calls on their own data. Salesforce's Trailhead is another example; learners can earn badges by completing training on the site. (There are other large documentation efforts to create in-house documentation tools, like Google's g3docs (see this talk by Riona MacNamara), and Twitter's DocBird. These are essentially docs-as-code on a large scale. ) . ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"82": {
+  },"81": {
     "doc": "Toolchain families",
     "title": "The essentials: custom documentation apps",
     "content": "| Main use cases | Strengths | Limitations | . | Adding advanced functionality to the documentation, to improve customer experience. | . | Can be well-aligned with user needs. | . | . | To create a proprietary in-house docs app requires a large, ongoing commitment of developers and possibly a product management team. | . | . Stripe docs were open sourced as Markdoc. ",
     "url": "/topics/Tools-and-toolchains/toolchain-types/",
     
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
-  },"83": {
+  },"82": {
     "doc": "Tools-and-toolchains",
     "title": "Tools and toolchains",
     "content": "A collection of articles about the tools and processes we use to build documentation. ",
     "url": "/topics/Tools-and-toolchains/tools-and-toolchains/#tools-and-toolchains",
     
     "relUrl": "/topics/Tools-and-toolchains/tools-and-toolchains/#tools-and-toolchains"
-  },"84": {
+  },"83": {
     "doc": "Tools-and-toolchains",
     "title": "Tools-and-toolchains",
     "content": " ",
     "url": "/topics/Tools-and-toolchains/tools-and-toolchains/",
     
     "relUrl": "/topics/Tools-and-toolchains/tools-and-toolchains/"
-  },"85": {
+  },"84": {
     "doc": "Writer resources",
     "title": "Resources for technical writers in general and API writers in particular",
     "content": " ",
     "url": "/topics/writer-resources/#resources-for-technical-writers-in-general-and-api-writers-in-particular",
     
     "relUrl": "/topics/writer-resources/#resources-for-technical-writers-in-general-and-api-writers-in-particular"
-  },"86": {
+  },"85": {
     "doc": "Writer resources",
     "title": "Web resources",
     "content": "I’d rather be writing Tom Johnson’s blog about technical writing is always useful. ",
     "url": "/topics/writer-resources/#web-resources",
     
     "relUrl": "/topics/writer-resources/#web-resources"
-  },"87": {
+  },"86": {
     "doc": "Writer resources",
     "title": "Classes and certifications",
     "content": "API-specific courses . Peter Gruenbaum’s class on API documentation Peter’s classes cover the basic concepts really well. I’d recommend that beginners take these courses and then proceed through Tom Johnson’s API course. Tom Johnson’s API writing course Covers the hands-on tasks like using Postman to test your code samples. ",
     "url": "/topics/writer-resources/#classes-and-certifications",
     
     "relUrl": "/topics/writer-resources/#classes-and-certifications"
-  },"88": {
+  },"87": {
     "doc": "Writer resources",
     "title": "Groups and conferences",
     "content": "Some of the following are groups and some are places to find groups. Technical writing groups . Write The docs An organization focused on software documentation. They’re known for the annual conference, for the local meetups that members organize, and for their large community on Slack. API the DOCS A conference focusing exclusively on API documentation. The Good Docs Project An open-source project that creates templates for open-source documentation. They offer templates for many kinds of documentation. ",
     "url": "/topics/writer-resources/#groups-and-conferences",
     
     "relUrl": "/topics/writer-resources/#groups-and-conferences"
-  },"89": {
+  },"88": {
     "doc": "Writer resources",
     "title": "Books",
     "content": "Where to find electronic copies of books If you don’t like to use dead wood books, you can find many of the best technical and writing books on these sites. O’Reilly.com O’Reilly has resources about almost any technical topic you might need to learn about, including both videos and courses in addition to books. It’s not the cheapest option, but obviously has the biggest inventory. Scribd Scribd is the Netflix of books. The selection of technical and technical writing books is fair and the price is lower than O’Reilly. Books technical writers should read . Information Architecture (A.K.A. The Polar Bear Book) By Peter Morville et al. The Product is Docs by Christopher Gales and the Splunk Documentation Team . Modern Technical Writing by Andrew Etter . Revising Business Prose by Richard Lanham . ",
     "url": "/topics/writer-resources/#books",
     
     "relUrl": "/topics/writer-resources/#books"
-  },"90": {
+  },"89": {
     "doc": "Writer resources",
     "title": "Writer resources",
     "content": " ",
