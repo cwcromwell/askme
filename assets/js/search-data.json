@@ -574,54 +574,47 @@
     "relUrl": "/topics/Tools-and-toolchains/toolchain-types/"
   },"82": {
     "doc": "Tools-and-toolchains",
-    "title": "Tools and toolchains",
-    "content": "A collection of articles about the tools and processes we use to build documentation. ",
-    "url": "/topics/Tools-and-toolchains/tools-and-toolchains/#tools-and-toolchains",
-    
-    "relUrl": "/topics/Tools-and-toolchains/tools-and-toolchains/#tools-and-toolchains"
-  },"83": {
-    "doc": "Tools-and-toolchains",
     "title": "Tools-and-toolchains",
     "content": " ",
     "url": "/topics/Tools-and-toolchains/tools-and-toolchains/",
     
     "relUrl": "/topics/Tools-and-toolchains/tools-and-toolchains/"
-  },"84": {
+  },"83": {
     "doc": "Writer resources",
     "title": "Resources for technical writers in general and API writers in particular",
     "content": " ",
     "url": "/topics/writer-resources/#resources-for-technical-writers-in-general-and-api-writers-in-particular",
     
     "relUrl": "/topics/writer-resources/#resources-for-technical-writers-in-general-and-api-writers-in-particular"
-  },"85": {
+  },"84": {
     "doc": "Writer resources",
     "title": "Web resources",
     "content": "I’d rather be writing Tom Johnson’s blog about technical writing is always useful. ",
     "url": "/topics/writer-resources/#web-resources",
     
     "relUrl": "/topics/writer-resources/#web-resources"
-  },"86": {
+  },"85": {
     "doc": "Writer resources",
     "title": "Classes and certifications",
     "content": "API-specific courses . Peter Gruenbaum’s class on API documentation Peter’s classes cover the basic concepts really well. I’d recommend that beginners take these courses and then proceed through Tom Johnson’s API course. Tom Johnson’s API writing course Covers the hands-on tasks like using Postman to test your code samples. ",
     "url": "/topics/writer-resources/#classes-and-certifications",
     
     "relUrl": "/topics/writer-resources/#classes-and-certifications"
-  },"87": {
+  },"86": {
     "doc": "Writer resources",
     "title": "Groups and conferences",
     "content": "Some of the following are groups and some are places to find groups. Technical writing groups . Write The docs An organization focused on software documentation. They’re known for the annual conference, for the local meetups that members organize, and for their large community on Slack. API the DOCS A conference focusing exclusively on API documentation. The Good Docs Project An open-source project that creates templates for open-source documentation. They offer templates for many kinds of documentation. ",
     "url": "/topics/writer-resources/#groups-and-conferences",
     
     "relUrl": "/topics/writer-resources/#groups-and-conferences"
-  },"88": {
+  },"87": {
     "doc": "Writer resources",
     "title": "Books",
     "content": "Where to find electronic copies of books If you don’t like to use dead wood books, you can find many of the best technical and writing books on these sites. O’Reilly.com O’Reilly has resources about almost any technical topic you might need to learn about, including both videos and courses in addition to books. It’s not the cheapest option, but obviously has the biggest inventory. Scribd Scribd is the Netflix of books. The selection of technical and technical writing books is fair and the price is lower than O’Reilly. Books technical writers should read . Information Architecture (A.K.A. The Polar Bear Book) By Peter Morville et al. The Product is Docs by Christopher Gales and the Splunk Documentation Team . Modern Technical Writing by Andrew Etter . Revising Business Prose by Richard Lanham . ",
     "url": "/topics/writer-resources/#books",
     
     "relUrl": "/topics/writer-resources/#books"
-  },"89": {
+  },"88": {
     "doc": "Writer resources",
     "title": "Writer resources",
     "content": " ",
